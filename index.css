@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul, ul li {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: rgb(50, 40, 100);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#slackProfilePicture {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+nav .img {
+    text-align: center;
+}
+
+/* MAIN */
+
+main {
+    margin: 0% 20% 0% 20%;
+    margin-bottom: 10vh;
+}
+
+main h2 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+ol li::marker {
+    content: '💥';
+}
+
+/* FOOTER */
+
+/* footer {
+    background-color: rgb(50, 50, 200);
+    color: white;
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+    width: 100vw; 
+} */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 50px; /* set the height */
+    background-color: rgb(50, 50, 200);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999; /* add this to ensure it's on top of other elements */
+  }
+
+@media screen {
+    
+}
